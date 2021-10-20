@@ -16,6 +16,24 @@ public class LineComparison {
         {
             System.out.println("Two Lines are unequal");
         }
+        /*
+        int compareLength = x1.comapareTo(y1);
+        if (compareLength > 0) {
+            System.out.println("Length of Line1 is greater than Line2");
+        } else if (compareLength < 0) {
+            System.out.println("Length of Line1 is less than Line2");
+        } else {
+            System.out.println("Both of lines are equal");
+        }
+        */
+        Integer x1 = new Integer(1);
+        Integer x2 = new Integer(4);
+        Integer y1 = new Integer(1);
+        Integer y2 = new Integer(4);
+
+        System.out.println(x1.compareTo(y1));// Both are equal
+        System.out.println(x1.compareTo(x2)); //x1 is less than x2
+        System.out.println(x2.compareTo(y1)); // x2 is greater than y1
     }
 
 }
